@@ -9,7 +9,6 @@ import QuickInfo from '../components/HomePageComponents/QuickInfo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>This is a home page</h3>
     <HomeHeader img={img}>
       <Banner title="eatery" subtitle="Pere Segedinca 2 - Pancevo">
         <BannerButton style={{margin: '2rem auto'}}>menu</BannerButton>
